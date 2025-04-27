@@ -4,7 +4,7 @@ import "./login.css";
 function Login() {
   return (
     <div>
-      {/* <MenuLateral /> */}
+      <MenuLateral />
       <div className="login-background">
         <div className="login-container">
           <h2>Iniciar Sesión</h2>
@@ -16,7 +16,7 @@ function Login() {
         </div>
       </div>
     </div>
-  );
+  ); 
 }
 
 export default Login;
