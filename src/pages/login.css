@@ -56,6 +56,21 @@
   }
   
   button:hover {
-    background-color: #187bcd;
+    background-color: #034a85;
   }
   
+  a {
+    color: #ffffff;
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  input:focus, button:focus {
+    outline: 2px solid #1e90ff;
+  }
+    

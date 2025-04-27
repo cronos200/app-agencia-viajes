@@ -17,9 +17,6 @@ function MenuLateral() {
         <div className="botones">
           <button>Quienes somos</button>
         </div>
-        <div className="botones">
-          <button>Registrate</button>
-        </div>
       </nav>
     </aside>
   )

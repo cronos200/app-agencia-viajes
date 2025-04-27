@@ -1,5 +1,5 @@
 import MenuLateral from "../MenuLateral";
-import "./login.css";
+import "../pages/login.css";
 
 function Login() {
   return (
@@ -12,11 +12,12 @@ function Login() {
             <input type="email" placeholder="Correo electrónico" required />
             <input type="password" placeholder="Contraseña" required />
             <button type="submit">Ingresar</button>
+            <a>Registrate</a>
           </form>
         </div>
       </div>
     </div>
-  ); 
+  );
 }
 
 export default Login;
