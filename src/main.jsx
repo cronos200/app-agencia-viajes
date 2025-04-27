@@ -7,6 +7,5 @@ import Reservas from './Reservas.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <PanelControl />
-    <Reservas />
   </StrictMode>,
 )
