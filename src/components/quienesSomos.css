@@ -2,7 +2,7 @@
     background-image: url('/public/top-view-hands-holding-smartphone.jpg');  
     background-size: cover;  
     background-position: center;  
-    color: rgb(255, 255, 255); /* Cambia el color del texto si es necesario */  
+    color: rgb(0, 0, 0); /* Cambia el color del texto si es necesario */  
     padding: 50px;  
     text-align: center; /* Centra el título */  
 }  
@@ -47,9 +47,10 @@
 }  
   
 /* Estilos para la imagen de Visión */  
-.imagen-vision {  
+.imagen-vision::be {  
     flex: 1; /* La imagen toma el mismo espacio */  
     padding-right: 2px; /* Espaciado entre el texto e imagen */  
+    
 }  
   
 .imagen-vision img {  

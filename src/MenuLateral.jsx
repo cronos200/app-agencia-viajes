@@ -12,10 +12,10 @@ function MenuLateral() {
           <button>Inicio de seccion</button>
         </div>
         <div className="botones">
-          <button>Contactanos</button>
+          <button>Destinos</button>
         </div>
         <div className="botones">
-          <button>Quienes somos</button>
+          <button>Contactanos</button>
         </div>
       </nav>
     </aside>

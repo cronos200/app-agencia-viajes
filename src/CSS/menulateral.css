@@ -17,10 +17,10 @@
   }
 
   .panel-control-aside div img {
-    width: 95%;
-    height: 80%;
-    border-radius: 50%;
-    border: solid 1px black;
+    width: 90%;
+    height: 75%;
+    border-radius: 60%;
+    border: transparent
   }
 
   .panel-control-aside nav {
@@ -46,7 +46,7 @@
     font-size: 16px;
     font-weight: bold;
     color: white;
-    background: linear-gradient(45deg, #5fa4ff, #c79672);
+    background: linear-gradient(45deg, #333, #333);
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -56,7 +56,7 @@
   }
   
   .botones button:hover {
-    background: linear-gradient(45deg, #fef57b, #5fcaff);
+    background: linear-gradient(45deg, #000000, #000000);
     transform: scale(1.05);
   }
   
@@ -69,5 +69,5 @@
     margin-top: 3px;
     font-size: 20px; 
     text-align: center; 
-    color: rgb(25, 110, 200);
+    color: rgb(0, 0, 0);
 }
